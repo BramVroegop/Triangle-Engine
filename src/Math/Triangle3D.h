@@ -29,8 +29,8 @@ struct Triangle3D {
 	}
 
 	Vector3 point_from_uv(Vector2 uv) {
-		Vector3 e1 = (b - a).normalized();
-		Vector3 e2 = (c - a).normalized();
+		Vector3 e1 = b - a;
+		Vector3 e2 = c - a;
 
 		return e1 * uv.x + e2 * uv.y;
 	}
