@@ -1,7 +1,6 @@
 <Solution>
   <Configurations>
     <Platform Name="x64" />
-    <Platform Name="x86" />
   </Configurations>
-  <Project Path="Triangle Engine.vcxproj" />
+  <Project Path="D:/Projects/Triangle Engine/Triangle Engine.vcxproj" Id="7e375464-2d94-48b7-a2d7-38f957e1e558" />
 </Solution>
