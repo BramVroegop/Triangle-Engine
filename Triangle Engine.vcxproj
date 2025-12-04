@@ -133,7 +133,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\Defines.h" />
+    <ClInclude Include="src\Math\Color.h" />
+    <ClInclude Include="src\Math\Vector2.h" />
+    <ClInclude Include="src\Math\Vector3.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\glad.c" />

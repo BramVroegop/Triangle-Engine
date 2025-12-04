@@ -1,4 +1,7 @@
-#include <pch.h>
+#include <SDL3/SDL.h>
+#include <stdio.h>
+#include <glad/glad.h>
+#include <Defines.h>
 
 int main() {
 	if (!SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO)) {
