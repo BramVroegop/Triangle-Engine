@@ -39,8 +39,11 @@ int main() {
 	Vector3 p3 = Vector3(0.0f, 1.0f, 0.0f);
 	Triangle3D t(p1, p2, p3);
 	Vector2 uv = t.get_uv_coords(Vector3(-0.5f, 1.0f, 0.0f));
+	Vector3 p = t.point_from_uv(uv);
 
-	printf("U: %f, V: %f", uv.x, uv.y);
+	printf("U: %f, V: %f\n", uv.x, uv.y);
+
+	printf("X: %f, Y: %f", p.x, p.y);
 
 
 	bool running = true;

@@ -28,6 +28,13 @@ struct Triangle3D {
 		return Vector2(u, v);
 	}
 
+	Vector3 point_from_uv(Vector2 uv) {
+		Vector3 e1 = (b - a).normalized();
+		Vector3 e2 = (c - a).normalized();
+
+		return e1 * uv.x + e2 * uv.y;
+	}
+
 	bool is_inside(Vector3 p) {
 		Vector2 uv = get_uv_coords(p);
 
